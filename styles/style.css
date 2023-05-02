@@ -1,0 +1,158 @@
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+
+/* Styles specific to contact page */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Styles specific to index page */
+.jumbotron {
+  background-color: #eee;
+  text-align: center;
+  padding: 50px;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 24px;
+}
+
+/* Styles specific to about page */
+.about-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  margin-top: 0;
+}
+
+.about-section p {
+  margin-bottom: 20px;
+}
